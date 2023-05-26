@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+    char ch ='&';
+
+    if (ch>='A'&&ch<='Z')
+
+    printf("upper case.....");
+
+    else if (ch>='a'&& ch>='z')
+
+    printf(" lowercase.....");
+
+    else if (ch>='0'&& ch>='9')
+
+    printf("Digit...");
+
+    else
+
+    printf("special symbols....");
+
+}

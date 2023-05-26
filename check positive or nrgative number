@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    
+    int num=-7;
+    if(num>0)
+    {
+    }
+    else
+    {
+        printf("negative number");
+        
+    }
+    
+
+    return 0;
+}

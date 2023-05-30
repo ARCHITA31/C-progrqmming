@@ -1,0 +1,17 @@
+# include <stdio.h>
+void greatnum(int a,int b);
+int main()
+{
+    int a,b;
+    printf("enter the values:");
+    scanf("%d %d",&a,&b);
+    greatnum(a,b);
+}
+void greatnum(int a,int b)
+{
+    
+    if(a>b)
+    printf("a is greater:");
+    else
+    printf("b is greater:");
+}

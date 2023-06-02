@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int num=0;
+    int sum=0;
+    int rem=0;
+    int temp;
+    printf("enter the number:");
+    scanf("%d",num);
+    temp=num;
+    while(num !=0)
+    {
+        rem=num%10;
+        cube=(pow(rem,3));
+        sum=sum+cube;
+        num=num/10;
+        
+    }
+    if(sum==temp)
+    {
+        printf("the number is a astronony number");
+        else
+        printf("not a amstronomy number";)
+    }
+    }
+}

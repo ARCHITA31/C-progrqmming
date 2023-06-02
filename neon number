@@ -1,0 +1,22 @@
+# include<stdio.h>
+int neon_number(int num){
+    int square=num*num;
+    int n=square;
+    int digit;
+    int sum=0;
+
+while (n !=0){
+    digit=n%10;
+    sum=sum+digit;
+    n+n/10;
+}
+int main()
+{
+    int num=9;
+    int n1=neon_number(num);
+    if(n1=1)
+    printf("true");
+    else
+    printf("flase");
+}
+}

@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int j=10;
+    int num=0;
+    for(j;j>num;j=j-2+1-3)
+    printf("%d",j);
+    return 0;
+}
